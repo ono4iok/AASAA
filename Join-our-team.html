@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Team - Action Against Substance Abuse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="home-button"><img class="LC" src="coverpng.png" height="120px"></a></div>
+        <nav>
+            <ul>
+                <li><a href="Report-A-Drug-Activity.html" class="nav-button">Report Drug Activity</a></li>
+                <li><a href="Get-Help.html" class="nav-button">Get Help</a></li>
+                <li><a href="Join-our-team.html" class="nav-button">Join Our Team</a></li>
+                <li><a href="#what-we-do" class="nav-button">Publications</a></li>
+                <li><a href="#how-to-help" class="nav-button">Reports</a></li>
+                <li><a href="#latest" class="nav-button">Pictures</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="join-our-team" class="section">
+        <h2>Join Our Team</h2>
+       
+        <div class="form-container">
+            <form action="submit_application.php" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+                </div>
+                <div class="form-group">
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state">
+                </div>
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country">
+                </div>
+                <div class="form-group">
+                    <label for="degree">Degree (up to three entries):</label>
+                    <input type="text" id="degree1" name="degree1">
+                    <input type="text" id="degree2" name="degree2">
+                    <input type="text" id="degree3" name="degree3">
+                </div>
+                <div class="form-group">
+                    <label for="work_experience">Work Experience (up to three entries):</label>
+                    <textarea id="work_experience1" name="work_experience1"></textarea>
+                    <textarea id="work_experience2" name="work_experience2"></textarea>
+                    <textarea id="work_experience3" name="work_experience3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="skills">Skills:</label>
+                    <textarea id="skills" name="skills"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="cv">Upload CV:</label>
+                    <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx">
+                </div>
+                <div class="form-group">
+                    <label for="cover_letter">Upload Cover Letter:</label>
+                    <input type="file" id="cover_letter" name="cover_letter" accept=".pdf, .doc, .docx">
+                </div>
+                <div class="form-group">
+                    <label>Agree to Be Notified:</label>
+                    <input type="checkbox" name="notify" value="yes">
+                </div>
+                <div class="form-group">
+                    <label>Terms and Conditions:</label>
+                    <input type="checkbox" name="terms_conditions" value="accepted">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit Application">
+                </div>
+            </form>
+        </div>
+        
+        
+    </section>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>
